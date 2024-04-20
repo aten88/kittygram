@@ -1,4 +1,4 @@
-## Аналог Instagramm, социальная сеть для котов
+## Kittygram аналог Instagramm, социальная сеть для котов
 
 ### Как запустить проект:
 
@@ -43,3 +43,4 @@ python3 manage.py migrate
 ```
 python3 manage.py runserver
 ```
+### Автор: Алексей Тен.
