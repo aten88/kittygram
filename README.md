@@ -1,46 +1,43 @@
-## Kittygram аналог Instagramm, социальная сеть для котов
+# Учебный проект Kittygram аналог Instagramm, социальная сеть для котов.
+## Описание проекта:
+Данный учебный проект позволяет изучить возможности интерфейса API и технологию Single Page Application в веб разработке.
+## Возможности проекта:
+- Регистрация и авторизация.
+- Создание личной страницы питомца.
+- Публикация фотографий.
+- Создание записей и публикаций о своем питомце.
+- Возможность создавать и управлять подписками на страницы других котиков.
+#### Стек проекта: Python 3, Django, Django REST.
+### Установка и запуск проекта:
 
-### Как запустить проект:
+- Клонировать репозиторий и перейти в него в командной строке:
+  ```
+  git clone https://github.com/aten88/learning_project_kittygram
+  ```
+  ```
+  cd kittygram
+  ```
+- Cоздать и активировать виртуальное окружение:
+  ```
+  python3 -m venv env
+  ```
+  ```
+  source env/bin/activate
+  ```
+- Установить зависимости из файла requirements.txt:
+  ```
+  python3 -m pip install --upgrade pip
+  ```
+  ```
+  pip install -r requirements.txt
+  ```
+- Выполнить миграции:
+  ```
+  python3 manage.py migrate
+  ```
+- Запустить проект:
 
-Клонировать репозиторий и перейти в него в командной строке:
-
-```
-git clone https://github.com/aten88/learning_project_kittygram
-```
-
-```
-cd kittygram
-```
-
-Cоздать и активировать виртуальное окружение:
-
-```
-python3 -m venv env
-```
-
-```
-source env/bin/activate
-```
-
-Установить зависимости из файла requirements.txt:
-
-```
-python3 -m pip install --upgrade pip
-```
-
-```
-pip install -r requirements.txt
-```
-
-Выполнить миграции:
-
-```
-python3 manage.py migrate
-```
-
-Запустить проект:
-
-```
-python3 manage.py runserver
-```
+  ```
+  python3 manage.py runserver
+  ```
 ### Автор: Алексей Тен.
